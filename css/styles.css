@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
+  background-image: url(../fotonoticia_20150310130850-732359_600.jpg);
   margin: 0;
   padding: 0;
   display: flex;
@@ -10,7 +11,9 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 button {
@@ -27,5 +30,9 @@ button:hover {
   background-color: #0056b3;
 }
 
-
-
+#jokeList{
+  background-color: yellow;
+  margin-left: 20px;
+  margin-right: 120px;
+  font-style: italic;
+}
